@@ -1,0 +1,9 @@
+[user]
+	email = kurt.jlewis15@gmail.com
+	name = Kurt Lewis
+[alias]
+	fedup = reset HEAD --hard
+	unstage = reset HEAD --
+	last = log -1 HEAD
+[core]
+	editor = vim
