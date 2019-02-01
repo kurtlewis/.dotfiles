@@ -24,7 +24,7 @@ autocmd FileType python setlocal ts=4 sts=4 sw=4
 
 
 " UI Settings
-set number          " show line numbers
+"set number          " show line numbers
 set showcmd         " show command in bottom bar
 set cursorline      " Highlights the line the cursor is on
 set showmatch       " Highlight matching [({})]
