@@ -1,4 +1,4 @@
 #Run chmod -x install.sh to give executable permission
 
 ln -sv ~/.dotfiles/git/.gitconfig ~
-ln -sv ~/.dotfiles/vim/.vimrc ~
+ln -sv ~/.dotfiles/vim/ ~/.vim

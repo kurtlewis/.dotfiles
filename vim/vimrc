@@ -1,0 +1,26 @@
+" Color settings
+syntax enable       " Color scheme
+set background=dark
+set t_Co=256
+colorscheme srcery  " https://github.com/srcery-colors/srcery-vim
+
+" Tab Settings
+set tabstop=4       " The width of a TAB is set to 4.
+                    " Still it is a \t. It is just that
+                    " Vim will interpret it to be having
+                    " a width of 4.
+set shiftwidth=4    " Indents will have a width of 4
+set softtabstop=4   " Sets the number of columns for a TAB
+                    " Hitting tab will insert this number of spaces but
+                    " only if expandtab is on
+set expandtab       " Expand TABs to spaces
+set smartindent     " Looks for next place for indent automagically in some
+                    " languages
+
+
+" UI Settings
+set number          " show line numbers
+set showcmd         " show command in bottom bar
+set cursorline      " Highlights the line the cursor is on
+set showmatch       " Highlight matching [({})]
+set ruler           " Show line and column in bottom right
