@@ -20,6 +20,7 @@ set smartindent     " Looks for next place for indent automagically in some
 " Filetype specific indent settings
 autocmd FileType cpp setlocal ts=2 sts=2 sw=2
 autocmd FileType html setlocal ts=2 sts=2 sw=2
+autocmd FileType htmldjango setlocal ts=2 sts=2 sw=2
 autocmd FileType python setlocal ts=4 sts=4 sw=4
 
 
