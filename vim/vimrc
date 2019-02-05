@@ -29,12 +29,12 @@ autocmd FileType sql setlocal ts=2 sts=2 sw=2
 " UI Settings
 "set number          " show line numbers
 set cursorline      " Highlights the line the cursor is on
-set scrolloff=5     " Scroll 5 lines before end of window
-set showcmd         " show command in bottom bar
 set laststatus=2    " show the status line at all times
-set showmatch       " Highlight matching [({})]
 set mat=3           " How long to highlight matching cursor for
 set ruler           " Show line and column in bottom right
+set scrolloff=5     " Scroll 5 lines before end of window
+set showcmd         " show command in bottom bar
+set showmatch       " Highlight matching [({})]
 
 " Searching
 set incsearch       " searches as characters are entered
