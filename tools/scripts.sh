@@ -28,5 +28,5 @@ devenv() {
   split-window -h \; \
   send-keys 'cd ' $1 '; clear' C-m \; \
   split-window -v -p 35 \; \
-  send-keys 'cd ' $1 '; clear' C-m \; \
+  send-keys 'cd ' $1 '; clear' C-m \;
 }
